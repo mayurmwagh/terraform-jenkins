@@ -10,7 +10,7 @@ resource "aws_instance" "demo" {
 
 
 resource "aws_security_group" "tf_sg" {
-  name        = "tf_sg"
+  name        = "tf_sg23"
   description = "Allow TLS inbound traffic"
   vpc_id      = "vpc-0935e460384f05540"
 
