@@ -1,5 +1,5 @@
 resource "aws_instance" "demo" {
-    ami = "ami-00c257e12d6828491"
+    ami = "ami-075686beab831bb7f"
     instance_type = "t2.micro"
     security_groups = [aws_security_group.tf_sg.name]
     tags = {
