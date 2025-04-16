@@ -1,16 +1,25 @@
+
+terraform {
+  backend "s3" {
+    bucket = "terraform-jenkinsstatefilestore"
+    key    = "env/terraform.tfstate"
+    region = "us-east-1"
+  }
+}
+
 resource "aws_instance" "demo" {
     ami = "ami-075686beab831bb7f"
     instance_type = "t2.micro"
     security_groups = [aws_security_group.tf_sg.name]
     tags = {
-    Name = "HelloWorld"
+    Name = "HelloWorld1"
     }
   
 }
 
 
 resource "aws_security_group" "tf_sg" {
-  name        = "tf_sg23"
+  name        = "tf_sg2324"
   description = "Allow TLS inbound traffic"
   vpc_id      = "vpc-0935e460384f05540"
 
