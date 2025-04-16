@@ -2,6 +2,7 @@
 terraform {
   backend "s3" {
     bucket = "terraform-jenkinsstatefilestore"
+    key = "mayur/"
     region = "us-east-1"
   }
 }
