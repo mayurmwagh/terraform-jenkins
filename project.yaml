@@ -1,0 +1,194 @@
+Project : 
+    - where we can write a business logic 
+    - product needs to be deleverd to client
+    - Planning and execution of any idea 
+    - Set of activities plan to desing and build something
+    - set of instructions to perform user requirment
+    - website
+    - it has goal 
+    - set of instructions provides in diffrent version 
+    - process to make app to work on any devices
+    - uniq product and service 
+    - temp task to achive a specific goal 
+    - software that can solve repetative task
+    - Bank app web app forntend svc
+    - video game
+
+Software : Project : 
+    - it is the combination of frontend backend database 
+
+Technologies:
+    Frontend Technologies:
+      - Angular JS
+      - ReactJs
+      - HTML 
+      - CSS
+      - BootStrap
+   
+    Backend Technologies:
+      - Spring Boot 
+    
+    DataBase:
+      - Sql 
+      - MongoDB 
+      - Mariadb 
+
+Architechture:
+    Frontend: S3
+    Backend: EKS
+    Database: RDS
+
+    DevOps: Terraform, Jenkins, Github, Kuberenetes, S3, EC2 
+
+Infrasturcture: 
+   AWS Based
+
+
+Angular java:
+  Frontend: Angular
+  Backend: spring boot
+  DataBase: Rds
+
+Infrastuture:
+  EKS cluster ---> Terraform
+  RDS ---> Terraform
+  S3 ---. Terraform 
+
+Jenkins Pipeline:
+  install jenkins server: aws cli, kubectl, docker, maven  
+
+Infrasturcture Repo: 
+  https://github.com/mayurmwagh/cbz-three-tier-infra
+
+
+DB Credentials:
+end pt: terraform-20250422093759970300000007.cjqmok2wewpj.us-east-2.rds.amazonaws.com
+username: admin
+password: redhat123
+
+Install jenkins with latest version:
+
+https://directdevops.blog/2019/01/04/installing-specific-lts-version-of-jenkins-on-ubuntu/
+
+
+project backend:
+https://github.com/mayurmwagh/project-backend
+
+project frontend:
+https://github.com/mayurmwagh/project-frontend
+
+project link:
+https://github.com/mayurmwagh/angular-java.git
+
+
+
+
+Client Name:
+  Not mandatory to tell 
+
+Domain Name:
+  - CRM Domain (dyl.com)
+  - Inbesment (Realestate) 
+
+Project:
+  Microservice Based Project
+  Frontend - 15
+  Backend - 20 
+
+Tech Stacks:
+  Frontend : Angular JS
+  Backend: Springboot
+
+Infrastructure: 
+  Cloud Base:
+  Hybrid cloud architecture:
+    awss3 + cloudfront , EKS , RDs 
+    AWS: 
+      - Eks, S3, Route53, RDS 
+
+DevOps Tools:
+    Jenkins, terraform, K8s, Git hub, Maven
+
+Team Size:  
+    15: Members 
+      - 5 Devlopers
+      - 4 Testers
+      - 3 DevOps 
+      - 2 Project Manager
+      - 1 Team lead
+
+SDLC:
+  Agile Methodology 
+  Daily Scrum Meeting 
+  sprint 4 weeks
+  Sprint Review Meet 
+  After complition os sprint we have a production deployment 
+
+Deployment stratergies:
+
+  Dev   ------------------------ Dev Env
+  Test  ------------------------ Test Env
+  UAT   ------------------------ UAT Env
+  Prod  ------------------------ Production Env
+
+Daily Responsibilites:
+
+  - creating repo
+  - repo access
+  - manage branches
+  - implementation of branching stratergies
+  - manages key and token
+  - jenkins server setup
+  - plugin manage
+  - pipeline write
+  - take bakup of jenkins
+  - trigger 
+  - automatic trigger
+  - jenkins access manage
+  - infra design
+  - write terraform code
+  - tfstate secure and manage
+  - terraform modules
+  - monitoring and aleart incidents
+  - install and manage maven version
+  - integrate maven with a pipeline 
+  - manage POM.xml 
+  - docker file write
+  - docker image 
+  - image optimizations
+  - manage docker registry
+  - manifest file for deployment, hpa, ingress, service
+  - manage K8s Cluster
+  - troubleshoot networking
+  - plan deployment stratergies
+
+
+Monitoring Concepts:
+
+  Monitoring tools:
+      - Prometheous 
+      - Grafana 
+      - loki
+      - Data Dog 
+      - cloudwatch (this not third party tool)
+
+
+      Default and coustom 
+
+      Data Dog:
+
+
+
+Infrastructure As code:
+  terraform - HashiCorp (main/var/provider.tf) 
+  cloudformation - AWS (templates written on yaml)
+
+
+Helm Chart: 
+    curl 
+    unzip 
+    install 
+
+install directly any package in your cluster:
+
+ 
