@@ -12,5 +12,11 @@ pipeline {
                 sh 'ls -ltr'
             }
         }
+        stage('print-default-variable'){
+            steps {
+                sh 'printenv' 
+                
+            }
+        }
     }
 }
