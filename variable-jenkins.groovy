@@ -8,8 +8,8 @@ pipeline {
         }
         stage('printing-dir'){
             steps {
-                sh 'pwd 
-                ls -ltr'
+                sh 'pwd' 
+                sh 'ls -ltr'
             }
         }
     }
