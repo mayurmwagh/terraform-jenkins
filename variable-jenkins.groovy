@@ -24,8 +24,8 @@ pipeline {
         }
         stage('Printing-environment-variable'){
             steps {
-                echo "prod ip is {$Prod_Ip}"
-                echo "UAT ip is {$UAT_Ip}"
+                echo "prod ip is $Prod_Ip"
+                echo "UAT ip is $UAT_Ip"
                 
             }
         }
