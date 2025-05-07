@@ -22,16 +22,10 @@ pipeline {
                 
             }
         }
-        stage('print-default-variable'){
-            steps {
-                sh 'printenv' 
-                
-            }
-        }
         stage('Printing-environment-variable'){
             steps {
                 echo "prod ip is {$Prod_Ip}"
-                echo "prod ip is {$UAT_Ip}"
+                echo "UAT ip is {$UAT_Ip}"
                 
             }
         }
