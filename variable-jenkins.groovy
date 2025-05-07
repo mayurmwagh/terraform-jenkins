@@ -6,5 +6,11 @@ pipeline {
                 echo "this is my first pipelin"
             }
         }
+        stage('printing-dir'){
+            steps {
+                sh 'pwd 
+                ls -ltr'
+            }
+        }
     }
 }
