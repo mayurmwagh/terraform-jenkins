@@ -21,5 +21,11 @@ pipeline {
                    
             }
         }
+        stage('workspace'){
+            steps{
+                echo $workspace
+                   
+            }
+        }
     }
 }
