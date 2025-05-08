@@ -1,8 +1,7 @@
 pipeline {
-    agent any
-    // agent {
-    //     label 'demo_slave'
-    // }
+    agent {
+        label 'demo_slave'
+    }
     environment {
         Prod_Ip = '192.168.9.0'
         UAT_Ip    = '192.186.2.1'
