@@ -31,5 +31,11 @@ pipeline {
                 
             }
         }
+        stage('hostname'){
+            steps {
+                sh 'hostname'
+                
+            }
+        }
     }
 }
